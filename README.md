@@ -1,8 +1,22 @@
-# React + Vite
+# Spices Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Spices Inventory Management System is a web application built using **Firebase**, **React**, and **Bootstrap**. It allows users to manage spices inventory, track stock levels, and retrieve essential details efficiently.
 
-Currently, two official plugins are available:
+## Features
+- Real-time database for managing spices data
+- Responsive UI designed using Bootstrap
+- Search and filter options
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend:** React, Bootstrap
+- **Backend:** Firebase (Authentication, Firestore, Storage)
+- **Hosting:** Firebase Hosting
+
+## Installation
+Follow these steps to set up the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/spices-inventory.git
+   cd spices-inventory
