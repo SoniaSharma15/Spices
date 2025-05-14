@@ -1,0 +1,364 @@
+
+@media screen and ( max-width:1441px){
+    .pro{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }.right img{
+      height: 22rem  !important;
+    }
+    .left p{
+      font-size: large !important;
+    }
+    .pro img{
+      width:15rem;
+      height: 15rem;
+       }
+       .box-design2{
+        font-size: smaller;
+        padding: 0px;
+      }
+      .let {
+        aspect-ratio: 1 / 2;
+        /* width: 25rem; */
+    }
+    .bannerinfo{
+      top: 115px;
+    }
+    .pb-5{
+      padding-top: 30px !important;
+        padding-bottom: 0rem !important;
+    }
+  }
+@media screen and ( max-width:1200px){
+    .pro{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .right img{
+      height: 22rem  !important;
+    }
+    .left p{
+      font-size: medium !important;
+    }
+    .pro img{
+      width:12rem;
+       }
+      .container{
+        height: 18rem;
+      }
+      .box-design2{
+        font-size: smaller;
+        padding: 0px;
+      }
+      .pb-5{
+        padding-bottom: 0px  !important;
+        padding-top: 30px  !important;
+      }
+      .bannerinfo{
+        font-size: small;
+        width: 30rem;
+        top: 131px;
+    left: -249px;
+   }
+      
+  }
+
+@media screen and ( max-width:992px){
+    .pro{
+      display: grid;
+      grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    }
+    .right img{
+      height: 20rem  !important;
+    }
+    .left p{
+      font-size: medium !important;
+    }
+    
+    .pro img{
+      width: 11rem;
+    }
+    .banner{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .banner-img{
+      width: 45rem;
+      height: 20rem;
+    }
+    .box-design2{
+      font-size: smaller;
+      padding: 0px;
+    }
+    .navbar-collapse {
+      align-items: start;
+      background-color: var(--bgcolour);
+  }
+  .pb-5{
+    padding-bottom: 0px  !important;
+    padding-top: 30px  !important;
+  }
+  .bannerinfo {
+    font-size: larger;
+    width: 33rem;
+    top: -199px;
+    left: 194px;
+}
+  }
+ @media screen and ( max-width:768px){
+     .pro{
+      display: grid;
+      grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    }
+    .pro img{
+      width: 11rem;
+    }
+    .right img{
+      height: 20rem  !important;
+    }
+    .left p{
+      font-size: large !important;
+    }
+    .left{
+      display: flex;
+      flex-direction: column;
+    }
+    .right{
+      display: flex;
+      justify-content: center;
+    }
+    .main{
+      flex-direction: column;
+        } 
+        .banner{
+          flex-direction: column;
+          gap: 5px;        }  
+      .container{
+        height: 18rem;
+      }
+      .banner-img{
+        width: 35rem;
+        height: 16rem;
+      }
+      .navbar-collapse {
+        align-items: start;
+        background-color: #f1f1b0;
+    }
+    .pb-5{
+      padding-bottom: 0px  !important;
+      padding-top: 30px  !important;
+    }
+    .bannerinfo{
+      font-size: medium;
+      width: 23rem;
+      top: -172px;
+      left: 200px;
+ }
+  
+       }
+
+@media screen and ( max-width:610px){
+      .pro{
+          display: grid;
+          grid-template-columns:1fr 1fr;
+      }
+      .pro img{
+        width: 11rem;
+      }
+      .box-design2{
+        font-size: smaller;
+        padding: 0px;
+      }
+      .right img{
+        height: 15rem  !important;
+      }
+      .left p{
+        font-size: medium !important;
+      }
+      .left{
+        display: flex;
+        flex-direction: column;
+      }
+      .right{
+        display: flex;
+      }
+      .main{
+        flex-direction: column;
+      }
+      .carousel-item img{
+        height: 20em;
+       }
+       footer{
+        font-size:x-large;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+      }
+      .banner{
+        flex-direction: column;
+        gap: 0px;
+      }
+      .container{
+        height: 23rem;
+      }
+      .banner-img{
+        width: 25rem;
+        height: 12rem;
+      }
+      .navbar-collapse {
+        align-items: start;
+        background-color: #f1f1b0;
+    }
+    .bannerinfo {
+      top: -114px;
+      left: 93px;  }
+    }
+    @media screen and ( max-width:430px){
+      
+      .pro{
+          display: grid;
+          grid-template-columns:1fr 1fr;
+        }
+      .pro img{
+        width:11rem;
+      }
+      .right img{
+        height: 14rem  !important;
+      }
+      .left p{
+        font-size: medium !important;
+      }
+      .left{
+        display: flex;
+        flex-direction: column;
+            }
+      .right{
+        display: flex;
+      }
+      .right img{
+        height: 8rem;
+      }
+      .main{
+        flex-direction: column;
+      }
+      .carousel-item img{
+       height: 15em;
+      }
+      footer{
+        font-size:small;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        letter-spacing: 2px;
+      }
+      .banner{
+        flex-direction: column;
+        gap: 0px;
+      }
+      .container{
+        height: 26rem;
+      }
+      .banner-img{
+        top: -91px;
+        left: 99px;
+      }
+      .box-design2{
+        font-size: smaller;
+          padding: 0px;
+      }
+      marquee {
+        font-size: 15px;
+      }
+      .account button{
+        width: 3rem;
+      }
+    
+      .navbar-collapse {
+        align-items: start;
+        background-color: #f1f1b0;
+    }
+    .pb-5{
+    padding-bottom: 65px  !important;
+    padding-top: 30px  !important;
+  }
+  .bannerinfo{
+    font-size: small;
+    width: 12rem;
+    top: -111px;
+    left: 25px;
+}    
+    }
+    
+    /* @media screen and ( max-width:376px){ */
+    @media screen and ( max-width:395px){
+      .pro{
+          display: grid;
+          grid-template-columns: 0.5fr 0.5fr;
+          gap: 0rem;
+          row-gap: 20px;
+        }
+      .pro img{
+        width: 9rem;
+        height: 11rem;
+      }
+      
+      .main{
+        flex-direction: column;
+      }
+      .carousel-item img{
+       height: 15em;
+      }
+      footer{
+        font-size:small;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        letter-spacing: 1px;
+      }
+      .banner{
+        flex-direction: column;
+        gap: 0px;
+      }
+      .s3{
+        padding-top: 2rem;
+      }
+      .container{
+        height: 23rem;
+      }
+      marquee b{
+        font-size:10px;
+      }
+      .banner-img{
+        width: 18rem;
+      }
+      .l1,.l2,.l3{
+        top: -4px;
+      }
+      .account button {
+        border-radius: 30%;
+        width: 4rem;
+      }
+      .account{
+        padding-left: 140px;
+        font-size: 30px;
+        width: 4rem;
+      }
+      .navbar-collapse {
+        align-items: start;
+        background-color: #f1f1b0;
+    }
+    .bannerinfo{
+      font-size: small;
+      width: 12rem;
+      top: -90px;
+      left: 85px;
+ }
+ .pb-5{
+  padding-bottom: 60px  !important;
+  padding-top: 30px  !important;
+}
+ .aspect{
+  font-size: xx-small;
+ }
+    }
+      /* trying something */
